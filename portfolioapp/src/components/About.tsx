@@ -12,23 +12,23 @@ const About = () => {
             Get to know more about me
         </p>  
         <div className='  pb-10 h-full overflow-auto flex flex-col lg:flex-row w-full flex-grow'>
-            <WobbleCard containerClassName="bg-blue-800 my-2 " className="">         
-                <div className="">
+            <WobbleCard containerClassName="bg-blue-800 my-2 " >         
+                <div >
                     <h2 className="text-left text-balance text-base md:text-xl lg:text-2xl font-semibold tracking-[-0.015em] text-white">
                         My Journey
                     </h2>
                     <p className="mt-4 text-left text-xs sm:text-base text-neutral-200">
-                        My interest in technology started early, I enjoyed video games growing up and built my first computer when I was 9, followed by a few more by the time I turned 12. Later, my cousin, a software engineering graduate, introduced me to programming, which became a new area of interest. In 10th grade, I created my first program—a simple video game in the learning language "Turing"—during a computer science class. Since then, I've continued on to pursuit Software Engineering at Western Universiry
+                        My interest in technology started early, I enjoyed video games growing up and built my first computer when I was 9, followed by a few more by the time I turned 12. Later, my cousin, a software engineering graduate, introduced me to programming, which became a new area of interest. In 10th grade, I created my first program—a simple video game in the learning language Turing—during a computer science class. Since then, I have continued on to pursuit Software Engineering at Western Universiry
                     </p>
                 </div>
             </WobbleCard>
-            <WobbleCard containerClassName="bg-pink-800 lg:mx-3 my-2"className="">         
-                <div className="">
+            <WobbleCard containerClassName="bg-pink-800 lg:mx-3 my-2">         
+                <div>
                     <h2 className="text-left text-balance text-base md:text-xl lg:text-2xl font-semibold tracking-[-0.015em] text-white">
                         Technologies
                     </h2>
                     <p className="my-4 text-left text-xs sm:text-base  text-neutral-200">
-                     Over the course of my software engineering career, I've used a wide range of technologies. This includes programming languages like JavaScript, Java, Python, and C++; libraries like ReactJS with both TSX and JSX; frameworks like NextJS and ExpressJS; databases like MySQL, PostgreSQL, and MongoDB; and platforms like AWS, GCP, and Firebase.                    </p>
+                     Over the course of my software engineering career, I have used a wide range of technologies. This includes programming languages like JavaScript, Java, Python, and C++; libraries like ReactJS with both TSX and JSX; frameworks like NextJS and ExpressJS; databases like MySQL, PostgreSQL, and MongoDB; and platforms like AWS, GCP, and Firebase.                    </p>
                     <div className='flex flex-wrap'>
                         <IconFileTypeJs stroke={1.5} size={30} className='scale-75 sm:scale-100' /> 
                         <IconFileTypeHtml stroke={1.5} size={30} className='scale-75 sm:scale-100' /> 
