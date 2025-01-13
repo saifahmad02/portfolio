@@ -38,7 +38,7 @@ const Projects = () => {
               </div>
               <p className='text-lg md:text-4xl font-semibold text-white mt-4'>WE.AI</p>
               <p className='mt-3 mb-10 text-xs/[14px] sm:text-base font-light'>
-                Built a custom AI chatbot specifically designed for Western University engineering students to address questions related to the engineering program. Utilized Python and Beautiful Soup to scrape data from Western Engineering faculty pages, creating a comprehensive dataset. Trained Google's Vertex AI directly on this custom dataset using tailored query instructions to ensure accurate and context-specific responses. Deployed the solution with a fully functional frontend built using Next.js & TailwindCSS, hosted on Firebase for seamless performance and accessibility.
+                Built a custom AI chatbot specifically designed for Western University engineering students to address questions related to the engineering program. Utilized Python and Beautiful Soup to scrape data from Western Engineering faculty pages, creating a comprehensive dataset. Trained Google Vertex AI directly on this custom dataset using tailored query instructions to ensure accurate and context-specific responses. Deployed the solution with a fully functional frontend built using Next.js & TailwindCSS, hosted on Firebase for seamless performance and accessibility.
               </p>
               <div className='absolute bottom-0 right-0 pr-5 pb-5 sm:pr-10 sm:pb-10'>
                 <Link href={"#projects"} onClick={alert2} >
