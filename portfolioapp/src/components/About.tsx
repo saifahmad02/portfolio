@@ -1,6 +1,6 @@
 import React from 'react'
 import { WobbleCard } from './ui/wobble-card';
-import { IconFileTypeJs, IconFileTypeHtml, IconFileTypeCss, IconCoffee,IconBrandFirebase, IconBrandGithub, IconExternalLink, IconApi, IconBrandReact, IconBrandTailwind, IconBrandNodejs, IconFileTypeJsx, IconFileTypeSql, IconBrandAws, IconBrandMongodb, IconFileTypeTsx, IconBrandNextjs, IconBrandPython, IconBrandGoogle, IconBrandMysql  } from '@tabler/icons-react';
+import { IconFileTypeJs, IconFileTypeHtml, IconFileTypeCss, IconCoffee,IconBrandFirebase, IconBrandGithub, IconApi, IconBrandReact, IconBrandTailwind, IconBrandNodejs, IconFileTypeJsx, IconBrandAws, IconBrandMongodb, IconFileTypeTsx, IconBrandNextjs, IconBrandPython, IconBrandGoogle, IconBrandMysql  } from '@tabler/icons-react';
 
 const About = () => {
   return (
