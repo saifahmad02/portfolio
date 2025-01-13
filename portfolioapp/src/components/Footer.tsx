@@ -6,7 +6,7 @@ import { IconBrandLinkedin, IconBrandGithub } from '@tabler/icons-react'
 const Footer = () => {
   return (
     <div className='flex flex-col relative h-dvh w-full justify-center items-center'>
-        <h1 className='text-6xl font-bold'>Get In 
+        <h1 className='text-4xl sm:text-6xl font-bold'>Get In 
             <Link href={"https://www.linkedin.com/in/saifattiqueahmad/"} target='_blank'>
                 <Cover>Touch.</Cover>
             </Link>

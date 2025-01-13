@@ -1,12 +1,23 @@
+"use client"
 import React from 'react'
 import { Tabs } from './ui/tabs'
 import Image from 'next/image'
 import Link from 'next/link'
 import countriesmockup from '/public/countriesmockup.png'
 import basmockup from '/public/basmockup.png'
+import weaimockup from '/public/weaimockup.png'
 import { IconFileTypeJs, IconFileTypeHtml, IconFileTypeCss, IconBrandFirebase, IconBrandGithub, IconExternalLink, IconApi, IconBrandReact, IconBrandTailwind, IconBrandNodejs, IconFileTypeJsx, IconFileTypeSql, IconBrandAws, IconBrandMongodb, IconFileTypeTsx, IconBrandNextjs, IconBrandPython, IconBrandGoogle  } from '@tabler/icons-react';
 
 const Projects = () => {
+
+    const alert1 = () => {
+      alert("Due to the nature of this project being a final year Capstone we arent able to host the site for the public yet. If you would like a demo please feel free to reach out.")
+    }
+
+    const alert2 = () => {
+      alert("Due to the nature of this project being a final year Capstone project we arent able to share the repository yet. If you would like a demo please feel free to reach out.")
+    }
+
     const tabs = [
         {
           title: "WE.AI",
@@ -26,18 +37,20 @@ const Projects = () => {
                 <IconApi stroke={1.5} size={30}/>               
               </div>
               <p className='text-lg md:text-4xl font-semibold text-white mt-4'>WE.AI</p>
-              <p className='mt-3 mb-10 text-xs/[14px] min-[375px]:text-md font-light'>Developed an interactive web-based flag guesser game by integrating the Rest Countries API to fetch and display country flag images. The application validated user inputs against the correct country names and dynamically updated the interface using DOM manipulation to show flags and track the player’s correct guess streak, enhancing user engagement. Deployed the final application on Firebase for accessibility.</p>
+              <p className='mt-3 mb-10 text-xs/[14px] sm:text-base font-light'>
+                Built a custom AI chatbot specifically designed for Western University engineering students to address questions related to the engineering program. Utilized Python and Beautiful Soup to scrape data from Western Engineering faculty pages, creating a comprehensive dataset. Trained Google's Vertex AI directly on this custom dataset using tailored query instructions to ensure accurate and context-specific responses. Deployed the solution with a fully functional frontend built using Next.js & TailwindCSS, hosted on Firebase for seamless performance and accessibility.
+              </p>
               <div className='absolute bottom-0 right-0 pr-5 pb-5 sm:pr-10 sm:pb-10'>
-                <Link href={"https://github.com/saifahmad02/Rest-Countries-API"} target='_blank'>
+                <Link href={"#projects"} onClick={alert2} >
                   <IconBrandGithub stroke={1.5} size={40} className='scale-75 sm:scale-100 hover:scale-125 ease-in-out duration-700 mb-1 sm:mb-3'/>
                 </Link>
-                <Link href={"https://rest-countries-api-game.web.app"} target='_blank'>
+                <Link href={"#projects"} onClick={alert1}>
                   <IconExternalLink stroke={1.5} size={40} className=' scale-75 sm:scale-100 hover:scale-125 ease-in-out duration-700'/>
                 </Link>
               </div>
               <Image 
                 alt='Countries API Game'
-                src={countriesmockup}
+                src={weaimockup}
                 style={{
                   width: '100%',
                   maxHeight: 'auto'
@@ -60,7 +73,7 @@ const Projects = () => {
                 <IconBrandAws stroke={1.5} size={30}/>                               
               </div>
               <p className='text-lg md:text-4xl font-semibold text-white mt-4'>BAS Music - Music Library</p>
-              <p className='mt-3 text-xs/[14px] min-[375px]:text-md font-light'>Built a comprehensive spotify style web app from the ground up using the PERN stack (PostgreSQL, Express, React, Node) and deployed the finalized product on AWS. Designed and developed a RESTful API with Express to access a vast online music archive of over 100,000 artists, albums, tracks, and genres stored in PostgreSQL. Integrated advanced functionalities into the Music App, including retrieving detailed track data such as tags and recording dates, creating and displaying playlists, and implementing filtering features to sort by track, artist, album, or song length for a seamless user experience.</p>
+              <p className='mt-3 text-xs/[14px] sm:text-base font-light'>Built a comprehensive spotify style web app from the ground up using the PERN stack (PostgreSQL, Express, React, Node) and deployed the finalized product on AWS. Designed and developed a RESTful API with Express to access a vast online music archive of over 100,000 artists, albums, tracks, and genres stored in PostgreSQL. Integrated advanced functionalities into the Music App, including retrieving detailed track data such as tags and recording dates, creating and displaying playlists, and implementing filtering features to sort by track, artist, album, or song length for a seamless user experience.</p>
               <div className='absolute bottom-0 right-0 pr-5 pb-5 sm:pr-10 sm:pb-10'>
                 <Link href={"https://github.com/brodysmith8/music-streaming-application"} target='_blank'>
                   <IconBrandGithub stroke={1.5} size={40} className='scale-75 sm:scale-100 hover:scale-125 ease-in-out duration-700'/>
@@ -89,7 +102,7 @@ const Projects = () => {
                 <IconApi stroke={1.5} size={30}/>               
               </div>
               <p className='text-lg md:text-4xl font-semibold text-white mt-4'>Rest Countries Flag Guesser Game</p>
-              <p className='mt-3 mb-10 text-xs/[14px] min-[375px]:text-md font-light'>Developed an interactive web-based flag guesser game by integrating the Rest Countries API to fetch and display country flag images. The application validated user inputs against the correct country names and dynamically updated the interface using DOM manipulation to show flags and track the player’s correct guess streak, enhancing user engagement. Deployed the final application on Firebase for accessibility.</p>
+              <p className='mt-3 mb-10 text-xs/[14px] sm:text-base font-light'>Developed an interactive web-based flag guesser game by integrating the Rest Countries API to fetch and display country flag images. The application validated user inputs against the correct country names and dynamically updated the interface using DOM manipulation to show flags and track the player’s correct guess streak, enhancing user engagement. Deployed the final application on Firebase for accessibility.</p>
               <div className='absolute bottom-0 right-0 pr-5 pb-5 sm:pr-10 sm:pb-10'>
                 <Link href={"https://github.com/saifahmad02/Rest-Countries-API"} target='_blank'>
                   <IconBrandGithub stroke={1.5} size={40} className='scale-75 sm:scale-100 hover:scale-125 ease-in-out duration-700 mb-1 sm:mb-3'/>
