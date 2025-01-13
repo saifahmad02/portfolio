@@ -22,9 +22,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Saif Ahmad",
   description: "Saif Ahmads Portfolio Page",
-  icons:{
-    icon:['portfolioapp/src/app/favicon.ico']
-  }
+
 };
 
 export default function RootLayout({
