@@ -17,7 +17,7 @@ const Hero = () => {
 
   return (
 
-    <BackgroundLines className="flex flex-col justify-center items-center w-full h-screen">
+    <BackgroundLines className="flex flex-col justify-center items-center w-full h-dvh">
       <h1 className='text-2xl font-bold sm:text-2xl md:text-4xl lg:text-7xl '>Saif Ahmad.</h1>
       <TypewriterEffectSmooth words={words}/>
     </BackgroundLines>
