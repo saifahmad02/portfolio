@@ -19,7 +19,7 @@ export function Experience() {
                 Optimized team workflows, enhanced performance management, and improved consulting efficiencies by automating processes, analyzing stakeholder feedback, and delivering actionable insights on data center and cloud infrastructure.
             </p>
 
-            <Link href="https://www.bmo.com/en-ca/main/personal/">
+            <Link href="https://www.bmo.com/en-ca/main/personal/" target="_blank">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mb-2">
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                     <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
@@ -43,7 +43,7 @@ export function Experience() {
             <p className="text-neutral-500 text-md md:text-lg font-light mb-10 sm:mb-5">
                 Collaborated with cross-functional teams to design and integrate solutions for 30+ enterprise customers, streamlined presales processes to boost efficiency by 20%, and managed $4M+ in VoIP and cloud solution deployments, earning praise from clients and senior leadership.
             </p>
-            <Link href="https://business.bell.ca/shop">
+            <Link href="https://business.bell.ca/shop" target="_blank">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mb-2">
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                     <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
@@ -67,7 +67,7 @@ export function Experience() {
             <p className="text-neutral-500 text-md md:text-lg font-light mb-10">
                 Led a student consulting team to deliver a $14,000 solution that optimized a local arborist’s report processing efficiency by 84%, developed a full-stack React.js and Firebase web app to streamline workflows, and fostered collaborative innovation through grassroots methodology.
             </p>
-            <Link href="https://www.summitsks.com">
+            <Link href="https://www.summitsks.com" target="_blank">
                 <button className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50 mb-2">
                     <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
                     <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
