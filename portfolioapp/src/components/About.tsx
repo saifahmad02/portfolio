@@ -18,7 +18,7 @@ const About = () => {
                         My Journey
                     </h2>
                     <p className="mt-4 text-left text-xs sm:text-base text-neutral-200">
-                        My interest in technology started early, I enjoyed video games growing up and built my first computer when I was 9, followed by a few more by the time I turned 12. Later, my cousin, a software engineering graduate, introduced me to programming, which became a new area of interest. In 10th grade, I created my first program—a simple video game in the learning language Turing—during a computer science class. Since then, I have continued on to pursuit Software Engineering at Western Universiry
+                        My passion for technology began with video games, leading me to build my first computer at age 9 and a few more for family and friends by 12. A few years later, my software engineer cousin introduced me to programming, sparking a new interest that allowed my creative side to meet my passion for tech. Since then, I’ve pursued software creation through personal projects and my studies in software engineering at Western University.
                     </p>
                 </div>
             </WobbleCard>
