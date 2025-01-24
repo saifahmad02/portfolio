@@ -52,7 +52,7 @@ const Dock = () => {
           icon: (
             <IconFileCv className="h-full w-full text-neutral-500 dark:text-neutral-300" />
           ),
-          href: "https://drive.google.com/file/d/1vJazqaGHiZV5J1gyevwwekZYgDwwPiiP/view?usp=sharing",
+          href: "https://drive.google.com/file/d/1XeZ_DAJs5uBaZEjeX8ax_oPWCunQ-vBs/view?usp=sharing",
         },
         {
           title: "GitHub",
